@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react'
 import './Video.css'
 import VideoFooter from './VideoFooter'
+import VideoSidebar from './VideoSidebar'
 
 
 function Video() {
@@ -30,6 +31,10 @@ function Video() {
 				channel="KavoSergey" 
 				description="Description" 
 				song="The Rolling Stones - Sympathy For The Devil" />
+			<VideoSidebar 
+				likes={3112}
+				messages={44}
+				shares={7}/>
       	</div>
 	);
 }

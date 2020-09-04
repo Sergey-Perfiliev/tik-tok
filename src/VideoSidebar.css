@@ -1,0 +1,38 @@
+.videoSidebar {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    color: #ffffff;
+}
+
+.videoSidebar__button {
+    padding: 10px;
+    text-align: center;
+}
+
+.videoSidebar__button.user {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.button.red {
+    color: red;
+}
+
+.videoSidebar__avatar {
+    position: relative;
+    width: 38px;
+    height: 38px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    background-color: #ebc9c9;
+}
+
+.videoSidebar__Follow {
+    position: absolute;
+    top: 38px;
+    right: 18px;
+    color: red;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
