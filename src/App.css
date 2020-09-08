@@ -4,7 +4,7 @@ html {
 
 .app {
     height: 100vh;
-    background-color: black;
+    background-color: #ec7373;
     display: grid;
     place-items: center;
 }
@@ -15,7 +15,7 @@ html {
     border-radius: 10px;
     overflow: scroll;
     width: 80%;
-    max-width: 500px;
+    max-width: 450px;
     scroll-snap-type: y mandatory;
 }
 

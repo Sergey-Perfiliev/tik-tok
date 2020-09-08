@@ -4,7 +4,7 @@ import VideoFooter from './VideoFooter'
 import VideoSidebar from './VideoSidebar'
 
 
-function Video() {
+function Video({url, channel, description, song, likes, messages, shares}) {
     const [playing, setPlaying] = useState(false);
     const videoRef = useRef(null);
 
@@ -25,16 +25,16 @@ function Video() {
 				loop
 				onClick={onVideoPress}
 				ref={videoRef}
-				src={""}
+				src={url}
 			></video>
 			<VideoFooter 
-				channel="KavoSergey" 
-				description="Description" 
-				song="The Rolling Stones - Sympathy For The Devil" />
+				channel={channel} 
+				description={description}
+				song={song} />
 			<VideoSidebar 
-				likes={3112}
-				messages={44}
-				shares={7}/>
+				likes={likes}
+				messages={messages}
+				shares={shares}/>
       	</div>
 	);
 }
